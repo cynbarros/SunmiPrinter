@@ -17,7 +17,6 @@
   "engines": {
     "cordovaDependencies": {
      "8.0.0": {
-        //"cordova-android": ">=6.3.0",
         "cordova": ">=7.1.1"
       }
     }
