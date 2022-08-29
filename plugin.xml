@@ -3,13 +3,13 @@
   <name>SunmiInnerPrinter</name>
   <engines>
     <engine name="cordova" version=">=7.1.1"/>
-    <engine name="cordova-android" version=">=7.0.0"/>
+    <engine name="cordova-android" version=">=7.1.1"/>
   </engines>
   <js-module src="www/innerprinter.js" name="InnerPrinter">
     <clobbers target="navigator.sunmiInnerPrinter" />
   </js-module>
   <platform name="android">
-    <preference name="ANDROID_SUPPORT_V13_VERSION" default="27.+" />
+    <!--<preference name="ANDROID_SUPPORT_V13_VERSION" default="27.+" /> -->
     <framework src="com.sunmi:sunmiui:latest.release" />
     <config-file target="res/xml/config.xml" parent="/*">
       <feature name="Printer">
