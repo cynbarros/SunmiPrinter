@@ -16,8 +16,8 @@
   "license": "MIT",
   "engines": {
     "cordovaDependencies": {
-      "8.1.0": {
-        "cordova-android": ">=8.1.0"
+      "7.5.1": {
+        "cordova-android": ">=7.5.1"
       }
     }
   }
