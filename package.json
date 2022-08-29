@@ -10,14 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/eusilvio/cordova-plugin-sunmi-inner-printer"
+    "url": "git+https://github.com/cynbarros/SunmiPrinter.git"
   },
   "author": "Silvio Campos",
   "license": "MIT",
   "engines": {
     "cordovaDependencies": {
      "8.0.0": {
-       "cordova-android": ">=6.3.0"
+       "cordova-android": ">=6.3.0",
+       "cordova": ">=7.1.1"
       }
     }
   }
