@@ -12,13 +12,23 @@
     "type": "git",
     "url": "git+https://github.com/cynbarros/SunmiPrinter.git"
   },
-  "author": "Silvio Campos",
+  "author": "Cynthia Barros",
   "license": "MIT",
   "engines": {
     "cordovaDependencies": {
-     "8.0.0": {
-       "cordova-android": ">=7.1.1",
-       "cordova": ">=7.1.1"
+      "<7.0.0": {
+        "cordova-android": "<6.3.0"
+      },
+      "7.0.0": {
+        "cordova-android": ">=6.3.0"
+      },
+      "7.1.0": {
+        "cordova-android": ">=6.3.0",
+        "cordova": ">=7.1.0"
+      },
+      "8.0.0": {
+        "cordova-android": ">=6.3.0",
+        "cordova": ">=7.1.0"
       }
     }
   }
