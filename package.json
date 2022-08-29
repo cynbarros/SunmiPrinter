@@ -16,20 +16,10 @@
   "license": "MIT",
   "engines": {
     "cordovaDependencies": {
-      "<7.0.0": {
-        "cordova-android": "<6.3.0"
-      },
-      "7.0.0": {
-        "cordova-android": ">=6.3.0"
-      },
-      "7.1.0": {
-        "cordova-android": ">=6.3.0",
-        "cordova": ">=7.1.0"
-      },
-      "8.0.0": {
-        "cordova-android": ">=7.1.1",
-        "cordova": ">=7.1.1"
+      "6.0.0": {
+        "cordova": ">100"
       }
+      
     }
   }
 }
