@@ -14,13 +14,9 @@
   },
   "author": "Cynthia Barros",
   "license": "MIT",
-  "engines": {
-    "cordovaDependencies": {
-       "8.0.0": {
-        "cordova-android": ">=6.3.0",
-        "cordova": ">=7.1.0"
-      }
-      
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
     }
-  }
 }
